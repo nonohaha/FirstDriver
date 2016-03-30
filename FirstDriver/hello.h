@@ -27,5 +27,5 @@ typedef struct _DEVICE_EXTENSION
 } DEVICE_EXTENSION, *PDEVICE_EXTENSION;
 
 NTSTATUS CreateDevice(IN PDRIVER_OBJECT pDriverObject);    //Create driver device
-VOID HelloDDKUnload(IN PDRIVER_OBJECT pDriverObject);
+VOID HelloDDKUnload(IN PDRIVER_OBJECT pDriverObject);      //Driver unload function
 NTSTATUS HelloDDKDispatchRoutine(IN PDEVICE_OBJECT pDevObj, IN PIRP pIrp);   
