@@ -5,10 +5,10 @@
 [Version]
 Signature="$WINDOWS NT$"
 Class=
-ClassGuid=
-Provider=
+ClassGuid={1ebfbf7a-260f-485f-a650-88879ceb77a9}
+Provider=nonohaha
 DriverVer=
-CatalogFile=
+CatalogFile=.cat
 
 [DestinationDirs]
 DefaultDestDir = 12
